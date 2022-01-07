@@ -16,4 +16,4 @@ jobs:
         shell: bash
         run: |
              currentDate=`date`
-             echo $currentDate
+             echo $currentDate + "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
