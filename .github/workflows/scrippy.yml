@@ -15,5 +15,6 @@ jobs:
       - name: bash script
         shell: bash
         run: |
-             currentDate=`date` + "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
-             echo $currentDate + "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+             currentDate=`date`
+             datee=  $currentDate + "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+             echo $datee
